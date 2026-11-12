@@ -288,3 +288,15 @@ Calling applies this filter after evidence assignment, so excluded candidates do
 For the Slurm template, optionally export `MIN_HGT_LENGTH=500` before submission; leave it unset for no cutoff. The demo runner accepts the same option; 1000 retains its block and 1001 excludes it.
 
 Hovering or keyboard-focusing a read highlights its matching alignment in both A and B in magenta. Moving away, leaving focus, or pressing Escape clears the highlight. This links the same read ID, not separate molecules with similar sequences.
+
+## Conda recipe
+
+`recipe/meta.yaml` builds the core Python package as `noarch: python` from the versioned release archive, verified with SHA256. `recipe/run_test.sh` runs the regression suite and synthetic demo with default, inclusive and excluding length thresholds. The recipe does not bundle minimap2, samtools, BLAST or annotation databases; use the real-data environment above when those tools are needed.
+
+To build without uploading, install conda-build in a separate build environment, then run:
+
+```bash
+conda build recipe --no-anaconda-upload --override-channels -c conda-forge -c bioconda
+```
+
+A recipe in this repository does not imply availability in Bioconda. Publication requires upstream review and merge. The package retains CC BY-NC 4.0 and its noncommercial restriction.
