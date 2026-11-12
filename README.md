@@ -6,7 +6,7 @@ This README is the single unified user and release guide.
 
 Author: Wei-Hua Chen (weihuachen@hust.edu.cn). Repository: https://github.com/whchenlab/HGTlong .
 
-Copyright 2026 Weihua Chen. Licensed under [Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)](LICENSE). Commercial use is not granted under this license. External tools retain their own licenses.
+Copyright 2026 Wei-Hua Chen. Licensed under [Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)](LICENSE). Commercial use is not granted under this license. External tools retain their own licenses.
 
 ## Contents
 
