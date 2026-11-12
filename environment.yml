@@ -1,0 +1,12 @@
+name: hgtlong
+channels:
+  - conda-forge
+  - bioconda
+  - nodefaults
+dependencies:
+  - python=3.11
+  - pip
+  - minimap2=2.31
+  - samtools=1.24
+  - pip:
+      - .

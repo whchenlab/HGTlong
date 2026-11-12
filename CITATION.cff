@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Please cite this software when using HGTlong."
+title: HGTlong
+version: 0.1.3rc3
+type: software
+authors:
+  - family-names: Chen
+    given-names: Weihua
+    email: weihuachen@hust.edu.cn
+repository-code: "https://github.com/whchenlab/HGTlong"
+license: CC-BY-NC-4.0

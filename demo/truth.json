@@ -1,0 +1,13 @@
+{
+  "description": "Engineered shared block, not a biological transfer",
+  "a0": 1500,
+  "a1": 2500,
+  "b0": 3500,
+  "b1": 4500,
+  "n_a0": 4,
+  "n_a1": 4,
+  "n_b0": 4,
+  "n_b1": 4,
+  "status": "read_supported",
+  "dataset": "hgtlong_demo"
+}

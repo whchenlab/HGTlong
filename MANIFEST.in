@@ -1,0 +1,6 @@
+include README.md environment.yml
+recursive-include demo *.py *.json *.tsv *.fa *.fastq *.sam
+recursive-include tests *.py
+recursive-include scripts *.py
+recursive-include workflows *.slurm
+include LICENSE CITATION.cff

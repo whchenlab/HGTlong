@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "HGTlong"
+version = "0.1.3rc3"
+description = "Read-resolved candidate HGT loci from ONT molecules"
+requires-python = ">=3.9"
+readme = "README.md"
+dependencies = []
+authors = [{name = "Weihua Chen", email = "weihuachen@hust.edu.cn"}]
+license = {file = "LICENSE"}
+
+[project.urls]
+Repository = "https://github.com/whchenlab/HGTlong"
+Issues = "https://github.com/whchenlab/HGTlong/issues"
+
+[project.scripts]
+hgtlong = "hgtlong.cli:main"
+
+[tool.setuptools]
+packages = ["hgtlong"]
